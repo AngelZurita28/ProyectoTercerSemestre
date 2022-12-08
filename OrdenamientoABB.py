@@ -53,3 +53,4 @@ if __name__ == '__main__':
     for j in datos:
         print("datos sin ordenar" + str(j))
     arbol.inorden()
+
