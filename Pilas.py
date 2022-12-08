@@ -40,4 +40,3 @@ if __name__ == '__main__':
             n = Nodo(dato)
             p.insertar(n)
             print(p.imprimir())
-
