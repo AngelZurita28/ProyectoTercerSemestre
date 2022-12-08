@@ -81,7 +81,7 @@ class Arbol:
             self.preordenr(rama.derecho)
 
     def postorden(self):
-        self.preordenr(self.raiz)
+        self.postordenr(self.raiz)
 
     def postordenr(self, rama):
         if rama is not None:
